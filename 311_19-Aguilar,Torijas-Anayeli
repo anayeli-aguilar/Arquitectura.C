@@ -1,0 +1,64 @@
+1.	¿Cómo se divide lógicamente un disco duro?
+
+En primer lugar, internamente los discos duros se pueden dividir en varios volúmenes homogéneos. Dentro de cada volumen se encuentran una estructura que bajo el sistema operativo del Ms-Dos,
+· El Sector de Arranque : Al formatear un volumen, el sector de arranque se crea siempre como primer sector del volumen, para que sea fácil de localizar por el DOS. En él se encuentra información acerca del tamaño, de la estructura del volumen y sobre todo del BOOTSTRAP-LOADER, mediante el cual se puede arrancar el PC desde el DOS. A ésta parte se le llama sector de arranque (BOOT).
+· La Tabla de Asignación de Ficheros (File Allocation Table) (FAT) : Si el DOS quiere crear nuevos archivos, o ampliar archivos existentes, ha de saber qué sectores del volumen correspondiente quedan libres, Estas informaciones las toma la llamada FAT. Cada entrada a esta tabla se corresponde con un número determinado de sectores, que son adyacentes lógicamente en el volumen. 
+· Una o más copias de la FAT : El DOS permite a un programa de formateo crear no sólo una, sino varias copias idénticas de la FAT. Si el DOS encuentra uno de estos medios, cuida todas las copias de la FAT simultáneamente, así que guarda allí los nuevos clusters ocupados o liberados al crear o borrar archivos. Esto ofrece la ventaja de que se puede sustituir la FAT primaria en caso de defecto por una de sus copias, para evitar la pérdida de datos.
+· El directorio Raíz : La cantidad máxima de entradas en el directorio raíz se limita por su tamaño, que se fija en el sector de arranque. Ya que el directorio raíz representa una estructura de datos estática, que no crece si se guardan más y más archivos o subdirectorios. De ahí que, dependiendo del tamaño, bien un disco duro o bien de volumen, se selecciona el tamaño del directorio raíz en relación al volumen.
+· La Zona de Datos : Es la parte del disco duro en la que se almacena los datos de un archivo. Esta zona depende en casi su totalidad de las interrelaciones entre las estructuras de datos que forman el sistema de archivos del DOS, y del camino que se lleva desde la FAT hacia los diferentes sectores de un archivo.
+
+2.	Tipos de discos duros y velocidad de transferencia
+
+	Discos duros SATA (“Serial Advanced Technology Attachment”):
+•	SATA o SATA 1, con una velocidad de transmisiónde 150MB/s, llamado también SATA 1.5Gb. Este tipo ya prácticamente no se utiliza, a pesar de su reciente aparición.
+•	SATA 2, con una velocidad de transmisiónde 300MB/s, conocido también como SATA 3Gb. Es el tipo más utilizado, y suelen tener un jumper para poder utilizarlos como SATA 1.
+•	El tipo SATA 6Gb, con una velocidad de transmisión de 600MBs .
+	Discos duros SAS (“Revolutions per Minute”):
+ Este valor determina la velocidad a la que los discos internos giran cada minuto. Su unidad de medida es: revoluciones por minuto (RPM). Este dato puede ser 7,200 RPM, 10,000 RPM hasta 15,000 RPM.
+Su velocidad de transparencia es de 6 Gigabits/ segundo.
+
+	Discos duros SSD (“ Solid State Drive”):
+Diez veces superior que los discos duros tradicionales.
+	SCSI: Estos discos ´poseen una interfaz muy pequeña y exige de un controlador para que opere.
+	IDE, ATA Y PATA: Cada clase de disco duro representa o quiere decir: IDE es la abreviatura de Componente Electrónico Avanzado de Contacto. PATA es la abreviatura de Tecnología Paralela Avanzada.
+
+3.	Tipos de computadoras 
+
+Portátiles: Son modelos con una pantalla plana, teclado, memoria, procesador y dispositivo señalados. Son livianas y están pensadas para los usuarios que se mueven con frecuencias
+Estaciones de trabajo: Son computadoras que tienen monitores muy grandes, que por esa condición pueden presentar gráficos en la más alta calidad, razón por la que disponen de un procesador bastante potente para operar con datos complejos, al igual que discos duros que almacenan grandes cantidades de información.
+Servidores: Son computadoras que se han optimizado para así brindar sus servicios a otras computadoras, aunque todo por medio de una red.
+Mainframes: Son computadoras con tamaños enormes que podrían ocupar hasta una habitación en su totalidad. Son demasiado caros y se los ha pensado para el procesamiento de varias tareas que se realizan por distintos usuarios en simultáneo.
+Minicomputadoras: Este tipo de equipos están desarrollados para realizar varias tareas en simultáneo, su procesamiento es muy veloz y soportar grandes cantidades de usuarios al tiempo.
+Supercomputadoras: Se usan para la realización de cálculos numéricos por cantidades en periodos de tiempo que son muy cortos.
+Servidores: Se emplean para almacenar sitios web y garantizar una conexión constante a los mismos vía internet.
+
+4.	En que se divide un procesador de una computadora 
+
+Unidad de control:  Es la parte con que se desactiva o activa los componentes del procesador. Con este se logra ejecutar y a la vez interpretar todas las instrucciones que están guardadas en la memoria principal.
+Registros: Son zonas temporales de almacenamiento que se utilizan durante la ejecución de las instrucciones. 
+Unidad aritmética y lógica:Esta parte es la que tiene el rol de ejecutar todas las operaciones de transformación de datos, como son las operaciones matemáticas.
+Buses de entradas y salidas:Se trata de un sistema digital encargado de la transferencia de información de un componente a otro de un ordenador, o crea la conexión entre dos o mas computadores.
+Encapsulado:Se encuentra cubriendo la oblea de silicio, el cual brinda una mayor protección y consistencia, impidiendo así cualquier deterioro.
+Chipset:Se trata de una serie de chips que se encargan de mantener controlada las funciones del equipo.
+Motor de ejecución:Considerada como parte importante del procesador, el cual concentra las unidades de FPU y las de ALU.
+Unidad FPU: Se designa por sus siglas  la unidad de punto flotante, la cual actúa como coprocesador matemático, el cual se encarga de las sumas y multiplicaciones.
+Unidad ALU: Refiere a la unidad aritmético lógica, la cual se encarga de todas las operaciones que se efectúan con números enteros.
+Zócalo: Refiere al sitio donde es colocado el procesador, el cual crea una conexión directa con el resto del equipo.
+Memoria cache: Se refiere a la zona donde los datos de mayor frecuencia del computador son almacenados.
+Puertos: Se trata del medio por donde se comunica el procesador al mundo externo. Este se considera como un medio análogo a la línea de teléfono.
+Pepelines: Son unidades de cálculo especializadas.
+Fetch: Se encarga de enviar todas las instrucciones al decodificador.
+Prefetch: Refiere a una pre-lectura de la instrucción que se efectúa desde la memoria principal.
+Decodificador: Este se encarga de evaluar que tipo de instrucción es y las tareas que se deben de realizar.
+Controlador de memoria: Se trata de un elemento localizado en la parte interna del procesador que controla la comunicación entre la memoria RAM y el micro.
+Memoria cache: Se trata de una memoria que trabaja a gran velocidad, con la cual se tiene acceso a los datos que serán usados en ciertas operaciones sin requerir ayuda de la memoria RAM. Este proceso de obtención de datos se realiza en un tiempo muy corto.
+Coprocesador matemático: También llamado como Unidad de coma flotante o FPU. Esta parte del procesador es la que realiza diversos tipos de cálculos matemáticos. Es considerada junto a la memoria, a la unidad de control, al bus de datos y a los registros como la parte lógica del procesador.
+Disipador de calor: Con este el procesador logra mantenerse a una perfecta temperatura, garantizando un máximo rendimiento. El calor en el procesador se produce por la pérdida de energía que ocurre en el, lo cual se transforma en calor.
+Ejecución superescalar: Es un componente añadido recientemente el cual logra ejecutar varias instrucciones a la vez por ciclo de reloj.
+
+
+
+
+
+
+
