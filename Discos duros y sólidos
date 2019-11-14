@@ -1,0 +1,35 @@
+Disco duro SAS
+(“Serial Attached SCSI –Small Computer System Interface–“),
+Dispositivo interno de almacenamiento magnético sellado al vacío  o relleno con gas Helio, que lee y graba bits a base de bobinas electromagnéticas.
+La velocidad de un disco duro no está ligada a la transferencia de datos, sino a la capacidad de giro del motor de rotación, que puede ser desde 10,000 RPM hasta 15,000 RPM (Revolutions per minute).
+•	Capacidad de almacenamiento: 70 GB hasta 2 TB
+•	Capacidad de cache: Hasta 128 MB
+•	Velocidad de transferencia: 6 Gigabits/segundo
+
+Disco duro SATA
+Consiste en una interfaz de transferencia de datos entre discos duros y la placa base que permite una mayor velocidad, aprovechamiento, capacidad para conectar unidades a la vez y mayor longitud de cable de transmisión de datos que el anterior P-ATA.
+•	 Conectores: 4 o 6 puertos SATA, aunque existen placas con un número mayor.
+•	Utilizan  cables planos de 7 hilos.
+Hay 3 generaciones de SATA: 
+SATA I: Velocidad de transmisión  150MB/s (1.5 Gb)
+SATA II: Velocidad de transmisión  300MB/s (3 Gb)
+SATA III: Velocidad de transmisión  600MB/s (6 Gb)
+
+Disco solido SSD
+((Solid State Drive o Unidad de Estado Sólido)
+Funciona asimilándose a una memoria RAM, las nuevas unidades de almacenamiento intercambian en el disco giratorio por pequeños chips de memoria flash para entregar capacidad.
+•	Capacidad de almacenamiento: 2 TB
+•	Desempeño del 48% superior al disco duro tradicional.
+•	Resistencia de 1500 G.
+•	Velocidades de 250Mb/s para lectura y 230Mb/s para escritura.
+
+Memoria NAND
+Hace referencia a (Tipo de puerta lógica booleana )
+La memoria flash NAND es un tipo de memoria no volátil, lo que significa que puede almacenar una carga independientemente que el disco esté o no conectado a una fuente de alimentación, que borra datos en unidades llamadas bloques. 
+NAND es la arquitectura predominante utilizada en el almacenamiento SSD actual.
+Lo fabrican:
+•	Samsung 
+•	Intel 
+•	 Hynix 
+ DIMM de RAM con un tamaño máximo de 32 GB 
+
